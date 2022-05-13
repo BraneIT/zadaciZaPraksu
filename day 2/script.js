@@ -53,8 +53,58 @@ let js = " of JavaScript";
 console.log(days.concat(js));
 //1.25
 console.log(challenge.repeat(2));
+//2.1
+console.log(`The quote 'There is no exercise better for the heart than reaching down and lifting people up.' by John Holmes teaches us to help one another.`);
+//2.2
+console.log("Love is not patronizing and charity isn't about pity, it is about love. Charity and love are the same -- with charity you give love, so don't just give money but reach out your hand instead.");
+//2.3
+let deset = "10";
+let deset2 = 10;
+console.log(typeof deset);
+console.log(typeof deset2);
+let num = Number(deset);
+deset == deset2
+? console.log("Brojevi su isti")
+: console.log("brojevi nisu isti");
+//2.4
+let broj = parseFloat(9.8)
+let broj2 = Math.round(broj)
+if (deset == broj2)
+console.log("brojevi su isti");
+else (console.log("brojevi nisu isti"))
+//2.5
+let Python = "Python";
+let jargon = "Jargon";
+console.log(Python.match("on"));
+console.log(jargon.match("on"));
+//2.6
+let quote = "I hope this course is not full of jargon"
+console.log(quote.match("jargon"));
+//2.7
+
+let randomNum = Math.floor(Math.random()*101)
+console.log(randomNum);
+//2.8
+let ran = Math.floor(50+Math.random()*51)
+console.log(ran);
+//2.9
+let r = Math.floor(Math.random()*251)
+console.log(r);
+//2.10
+let string = "JavaScript";
+console.log(string[Math.floor(Math.random()*string.length)]);
+//2.11
+console.log('1\t1\t1\t1');
+console.log('2\t1\t2\t4\t8');
+console.log('3\t1\t3\t9\t27');
+console.log('4\t1\t4\t16\t64');
+console.log('5\t1\t5\t25\t125');
+//2.12
+console.log(x.substring(30,54));
+//3.1
+let love = 'Love is the best thing in this world. Some found their love and some are still looking for their love.';
+console.log(love.match(/\love\b/gi));
+//3.2
+console.log(x.match(/because/gi));
 
 
-
-    
-    
