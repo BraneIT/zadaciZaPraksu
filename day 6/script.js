@@ -227,15 +227,11 @@ const fullStack = [
   ]
 
   for (let i = 0; i < fullStack.length ; i++) {
-    for (let j = 0; j < fullStack.length+1; j++) {
+    for (let j = 0; j < fullStack[i].length; j++) {
         console.log(fullStack[i][j]);
         
     }
       
   }
-
-
-// for (const element of fullStack) {
-//     console.log(element);
-// }
-
+//3.1
+console.log(countries.slice(0,countries.length).sort());
