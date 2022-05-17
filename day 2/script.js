@@ -106,5 +106,16 @@ let love = 'Love is the best thing in this world. Some found their love and some
 console.log(love.match(/\love\b/gi));
 //3.2
 console.log(x.match(/because/gi));
+//3.3
+// let numberOfCharters = Number(prompt("Enter a length of id"))
+// let numberOfIds = Number(prompt("Enter a number of id"))
 
+// let userIdGeneratedByUser = () =>
+// {
 
+// }
+
+function uid() {
+    return (performance.now().toString(36)+Math.random().toString(36)).replace(/\./g,"");
+  };
+  console.log(uid());
