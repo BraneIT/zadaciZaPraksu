@@ -144,13 +144,14 @@ console.log(users);
 //  for (var key in users){
 //   console.log(`${key} ${users[key]}`);
 // }
-//  for (let u = 0; u < users.length; u++) {
+//  for (let u = 0; u < users.length; u++) {      treba popraviti
    
 
 //   for (const value in users[u]) {
 //    console.log(`${value}`);
 //     }
 //   }
+//3.1
 const personAccount = {
   firstName:"Branislav",
   lastName: "Panic",
